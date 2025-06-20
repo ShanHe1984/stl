@@ -31,11 +31,11 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "jervisa"         # 用户名
+USER_NAME = "ervisa"         # 用户名
 UUID = "d6404199-31ed-4ebf-bb82-5a6ae4006913"                     # UUID，留空则自动生成
 PORT = 51813                   # Vmess端口，留空或0则自动生成
-DOMAIN = "ydl.evisa.dpdns.org"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiMjU2NzY4MWQxOTJkNGEzOGE1NTM5MjJjM2JkZTI0MzMiLCJ0IjoiMzIxZmRiZjEtM2VmMS00ZWVkLTkxZjQtOTkwZTFlYTMzODc1IiwicyI6Ik9UVmpZVFUwWW1RdFlXRTRaaTAwWlRKbExUa3lOV1V0WTJFeVl6azBNR05pTmpBNSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+DOMAIN = ""                   # 域名，留空则自动获取
+CF_TOKEN = ""                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
